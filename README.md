@@ -16,3 +16,10 @@ docker run -d -p 27017:27017 --name video-backend-mongo mongo
 docker build -t video-backend-app .
 docker run -it -p 2000:2000 video-backend-app
 ```
+
+## Next steps
+1. Avoid hard-coding IPs and other variables
+2. Create an Admin API to wipe database, batch-load examples
+3. Integrate with Jenkins CI/CD
+4. Deploy to Kubernetes
+
